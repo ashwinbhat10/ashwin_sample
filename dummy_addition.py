@@ -7,4 +7,4 @@ def add (a,b) :
 
 if __name__ == '__main__' :
 
-    add(1,2)
+    add(int(sys.argv[1]),int(sys.arg[2]))
